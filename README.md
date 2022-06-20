@@ -50,7 +50,7 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
-Add your response here
+A feature that I felt unprepared for was how to correctly implenment APIs into my JS file for my code to run.
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
@@ -58,7 +58,7 @@ Add your response here
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+My load button was acting kind of glitchy. Sometimes it would load new movies or load nothing at all.
 
 ### Open-source libraries used
 
@@ -67,3 +67,5 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+Nana was a huge help when I was running into trouble displaying the movie/poster images for my flixster website.
