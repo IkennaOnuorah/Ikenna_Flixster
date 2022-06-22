@@ -2,17 +2,17 @@
 
 ## Week 1 Assignment: Flixster
 
-Submitted by: **NAME**
+Submitted by: **Ikenna Onuorah**
 
 Estimated time spent: **#** hours spent in total
 
-Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
+Deployed Application (optional): [Flixster Deployed Site](http://127.0.0.1:5500/?moviesearch=)
 
 ### Application Features
 
 #### CORE FEATURES
 
-- [ ] User can view a list of current movies from The Movie Database API as a grid view
+- [ x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
 - [ ] For each movie displayed, user can see the following details:

@@ -5,12 +5,12 @@ let page = 1;
 let searchedMovie = false;
 let search_input;
 //now playing
-//const APIplaying = 'https://api.themoviedb.org/3/movie/now_playing?api_key=d40d5e3c1a513298a52115d1daef06e6&language=en-US&page=1 ';
-let APIplaying = `https://api.themoviedb.org/3/movie/now_playing?api_key=${APIKEY}$language=en-US&page=${page}`
+const APIplaying = 'https://api.themoviedb.org/3/movie/now_playing?api_key=d40d5e3c1a513298a52115d1daef06e6&language=en-US&page=1 ';
+//let APIplaying = `https://api.themoviedb.org/3/movie/now_playing?api_key=${APIKEY}$language=en-US&page=${page}`
 //for searching
-// APIsearch = 'https://api.themoviedb.org/3/search/movie?api_key=d40d5e3c1a513298a52115d1daef06e6&language=en-US&query=morbius&page=1&include_adult=false ';
+ APIsearch = 'https://api.themoviedb.org/3/search/movie?api_key=d40d5e3c1a513298a52115d1daef06e6&language=en-US&query=morbius&page=1&include_adult=false';
 
-//error message if nothing is found based on movie search word
+//error message if nothing is found based on movie search word${}
 const generateError = (err) => {
     document.lastChild.innerHTML += `
         <span style="color: red;">${err} not found</span>`;
@@ -37,7 +37,15 @@ getMovies();
 async function getData(search_input){
 
 }
-function getSearchResult() {
+
+/** Get results from API. */
+async function getResults(searchTerm) {
+    const offset = currentApiPage * pageSize;
+    const response = await fetch('https://api.themoviedb.org/3/search/movie?api_key=d40d5e3c1a513298a52115d1daef06e6&language=en-US&query=morbius&page=1&include_adult=false');
+    const jsonResponse = await response.json();
+    return jsonResponse.data;
+}
+/*function getSearchResult() {
     var search = document.getElementById("search_input").value;
     jQuery.getJSON(`https://api.themoviedb.org/3/search/movie?api_key=${APIKEY}$language=en-US&query=morbius&=${page}&include_adult=false` + search + "=json", function(result) {
       jQuery.each(result, function(i, field) {
@@ -45,7 +53,7 @@ function getSearchResult() {
       });
 
     });
-}
+}*/
 
 async function searchmovies(){
     const resp = await fetch(APIsearch);
