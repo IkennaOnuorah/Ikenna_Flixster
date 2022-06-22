@@ -54,11 +54,11 @@ A feature that I felt unprepared for was how to correctly implenment APIs into m
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
   
-Add your response here
+If I had more time I would seek for more help from my TA's and Google errors that I run into while creating my project.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-My load button was acting kind of glitchy. Sometimes it would load new movies or load nothing at all.
+My load button was acting kind of glitchy. 
 
 ### Open-source libraries used
 
