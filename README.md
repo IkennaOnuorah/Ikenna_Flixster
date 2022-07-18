@@ -4,7 +4,7 @@
 
 Submitted by: **Ikenna Onuorah**
 
-Estimated time spent: **#** hours spent in total
+Estimated time spent: **7** hours spent in total
 
 Deployed Application (optional): [Flixster Deployed Site](http://127.0.0.1:5500/?moviesearch=)
 
@@ -15,22 +15,22 @@ Deployed Application (optional): [Flixster Deployed Site](http://127.0.0.1:5500/
 - [ x] User can view a list of current movies from The Movie Database API as a grid view
   - The grid element should have an id of `movies-grid`
   - Each movie wrapper element should have a class of `movie-card`
-- [ ] For each movie displayed, user can see the following details:
+- [ x] For each movie displayed, user can see the following details:
   - Title - the element should have a class of `movie-title`
   - Image - the `img` element should have a class of `movie-poster`
   - Votes - the element should have a class of `movie-votes`
-- [ ] User can load more current movies by clicking a button at the bottom of the list
+- [ x] User can load more current movies by clicking a button at the bottom of the list
   - The button should have an id of `load-more-movies-btn`.
   - When clicked, the page should not refresh.
   - New movies should simply be added to the bottom
-- [ ] Allow users to search for movies and display them in a grid view
+- [ x] Allow users to search for movies and display them in a grid view
   - There should be a search input element with an id of `search-input`
   - Users should be able to type into the input
   - When a user hits 'Enter', it should send a search request to the movies API
   - The results from the search should be displayed on the page
   - There should be a close icon with an id of `close-search-btn` that exits the search, clears results, and shows the current movies displayed previously
-- [ ] Website accounts for basic HTML/CSS accessibility features
-- [ ] Website should be responsive
+- [ x] Website accounts for basic HTML/CSS accessibility features
+- [ x] Website should be responsive
 
 #### STRETCH FEATURES
 
@@ -42,9 +42,9 @@ Deployed Application (optional): [Flixster Deployed Site](http://127.0.0.1:5500/
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
+`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. 
 
-`ADD_EMBEDDED_CODE_HERE`
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/5b156fde8c314059a214503f4f1a2524" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ### Reflection
 
